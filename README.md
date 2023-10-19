@@ -1,9 +1,18 @@
 # CMPG-323-Project4---34202676
 
 ## Discription of how the UiPath reports will be used 
-This project is about using RPA to automize the workflow of using a the given database by using softwares or robots. The RPA tool that I will be using is UiPath.
-
-UiPath is used to extract data, application transfer, report generation, and website testing. These are all exampels of web automation using UiPath.
+1. Start the Sequence:
+   - Run the automation by clicking the "Run" or "Debug" button in UiPath Studio.
+1. Login (if required):
+   - If the web application requires login credentials, the automation should handle this step automatically if you've set the variables correctly.
+1. Provide Input:
+   - Depending on the selected function, you might be prompted to provide specific data. Ensure you input the necessary information accurately.
+1. Execute the Action:
+   - Let the automation execute the chosen CRUD function. It will interact with the web application to perform the action.
+1. Review Results:
+   - After the automation completes the action, review the results to confirm that the operation was successful.
+1. Repeat as Needed:
+   - You can use the automation to perform multiple CRUD actions. Simply run the sequence again for each action.
 
 ## Reference list
 - What is Robotic Process Automation (RPA)? | IBM. s.a. https://www.ibm.com/topics/rpa#:~:text=automation%20(RPA)%3F-,Robotic%20process%20automation%20(RPA)%2C%20also%20known%20as%20software%20robotics,%2C%20moving%20files%2C%20et%20cetera.
